@@ -33,7 +33,7 @@ class MyApp(MDApp):
 
     def on_button_press(self, instance):
         self.counter += 1
-        self.label.text = f"C новым годом,Алёна!"
+        self.label.text = f"C новым годом!"
 
 if __name__ == "__main__":
     MyApp().run()
